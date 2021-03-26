@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+
+ 	int salary,n;
+ 	cout<<"salary : ";
+ 	cin>>salary;
+ 	cout<<"Enter n : ";
+	cin>>n;	
+ 	if(salary>50000){
+ 	   salary=salary*(n-100)/100;
+ 	   cout<<"Salary = "<<salary;
+	 }
+	 cout<<"Salary = "<<salary;
+}

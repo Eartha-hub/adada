@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	float weight,height,m,ans;
+	cout<<"enter weight : ";
+	cin>>weight;
+	cout<<"enter height : ";
+	cin>>height;
+	m=height/100;
+	ans=weight/(m*m);
+	if(ans<18.5){
+		cout<<"Weight below a threshold";
+	}else if(ans>18.5&&ans<24.99){
+		cout<<"Weight is normal";
+	}else if(ans>25.00&&ans<29.99){
+		cout<<"Already overweight";
+	}else if(ans>30.00&&ans<34.99){
+		cout<<"Obesity Step 1.";
+	}else if (ans>35.00&&ans<39.99){
+		cout<<"Ovesity Step 2.";
+	}else if(ans>40){
+		cout<<"Obesity Step 3.";
+	}
+}

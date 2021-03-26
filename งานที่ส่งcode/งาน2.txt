@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+
+ 	int number1,number2,result;
+ 	cout<<"Enter num1 : ";
+ 	cin>>number1;
+ 	cout<<"Enter num2 : ";
+ 	cin>>number2;
+ 	result=number1*number2;
+ 	cout<<"result : "<<result;
+}

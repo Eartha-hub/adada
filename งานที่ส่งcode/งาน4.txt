@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+
+ 	int height,ans;
+ 	char gender;
+ 	cout<<"gender : ";
+ 	cin>>gender;
+ 	cout<<"height : ";
+ 	cin>>height;
+ 		if(gender=='M')
+		 {	 
+ 		ans=height-100;
+ 		cout<<"weight = "<<ans;
+ 	}
+ 		else if(gender=='F'){
+		 ans=height-100-(10%(height-100));
+		 cout<<"weight = "<<ans;
+		 }
+		 
+}

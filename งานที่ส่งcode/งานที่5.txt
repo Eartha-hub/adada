@@ -1,0 +1,29 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+
+ 	char grade;
+ 	cout<<"Enter grade ";
+ 	cin>>grade;
+ 	if(grade=='A')
+ 	{
+ 		cout<<"Excellent";
+	 }else if(grade=='B')
+	 {
+	 	cout<<"Avove Average";
+	 	
+	 }else if(grade=='C'){
+	 	cout<<"Average";
+	 	
+	 }else if(grade=='D'){
+	 cout<<"Below Average";
+	 
+	 }else if(grade=='F')
+	 {
+	 	cout<<"Fail";
+	 }else if(grade!='A')
+		 {
+		 	cout<<"input Error";
+		 }
+}
